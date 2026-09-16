@@ -8,7 +8,7 @@ class LectureInput{
     public static void main(String args[]) {
         double price1 = 3.00
         double price2 = 4.50
-        double price3 =         
+        double price3 = 1.50       
         System.out.println("Welcome to Carlo's Burger Shop");
         System.out.println("Hamburger"+ -price1 );
         System.out.println("Cheeseburger"+ -price2 );

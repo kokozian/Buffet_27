@@ -18,8 +18,7 @@ class starter {
 		double all = Math.max(Math.pow(2,14%3),Math.sqrt(2*6));
 		System.out.println(all);
 
-		//Extra Code//
-		System.out.println("Please enter a number:");
-		double extra = sc.nextdouble();
+		
+
 	}
 }

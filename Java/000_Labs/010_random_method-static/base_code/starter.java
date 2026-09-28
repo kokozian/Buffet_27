@@ -22,8 +22,7 @@ class starter {
 		System.out.println(d);
 
 
-		/
-
+		
 
 
 	}

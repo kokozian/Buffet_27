@@ -8,8 +8,48 @@ import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter your width:");
+		int width = sc.nextInt();
+		System.out.println("Please enther your hight");
+		int hight = sc.nextInt();
+		int x = 0;
+		int c = 0;
+
+		while(c < hight){
+			x = 0;
+			while(x < width){
+				System.out.print("*");
+
+				x++;
+			}
+			System.out.println();
+			c++;
+		}
+
+		System.out.print("Please enter an integer:");
+		int n = sc.nextInt();
+
+		int c1 =1
+		while(c1<n+1){
+			int c2
+
+
+
+			
+
+		
+
+		
+
+
+			
+
+
+		
+		
+		
+
+
 	}
 }

@@ -1,0 +1,12 @@
+werid = input("Please enter a weird noun ")
+verb = input("Please enter a verb ending in ing ")
+adj = input("Please enter a silly adjictive ")
+food = input("Please enter name of a food ")
+quant = input("Please enter a quantitiy ")
+fame = input("Please enter a fameous person ")
+funky = input("Please enter a funky noise ")
+
+print("You went to a amosument park and saw " + fame + verb + " while eating " + food + ".")
+print("Then you diced to ask " + fame + " to sit on a ride with you. Then he said " + funky + " and you said wow that was so " + adj)
+print("Then you gave " + fame + " some " +  food + " this many " + quant )
+print("Then " + fame + " diceded to give you " + werid)

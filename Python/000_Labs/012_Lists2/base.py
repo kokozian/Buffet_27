@@ -1,11 +1,6 @@
-x = input("Do you want your line vertical or horizantal : ")
-y = int(input("How long do you want your line : "))
-
-if x == "horizantal": 
-    for z in range(0,y):
-        print("-", end="" )
-elif x == "vertical":
-    for h in range (0,y):
-        print("|")
-    
-
+x = int(input("How man numbers would u like to create :"))
+thislist=[]
+import random
+for c in range(0,9):
+    thislist.append (random.randrange(0,9))
+print(thislist)    
